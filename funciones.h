@@ -2,6 +2,7 @@
 #define FUNCIONES_H_INCLUDE
 
 /*define las funciones del modulo de librerias*/
+void inicializacionMatriz(int n, int matrizA [n][n]);
 void areaTriangulo(int base, int altura);
 void celsiusAFahrenheit(int celsius);
 void mayorTresNumeros(int num1, int num2,int num3);
@@ -16,5 +17,13 @@ void sumaMatrices(int n, int matrizA[n][n], int matrizB[n][n], int matrizC[n][n]
 void restaMatrices(int n, int matrizA[n][n], int matrizB[n][n], int matrizC[n][n]);
 void palindromo(int n,char palabra[n]);
 void cuentaNumeroPalabras(int n,char palabra[n]);
+void cuenteAparicionesCaracterString(int n, char palabra[n], char caracter);
+void encuentraCaracterFrecuenciaMasAlta(int n, char palabra[n]);
+void imprimirMatrizRecursiva(int n,int i, int j, int matriz[n][n]);
+void creeArchivoEscribaCierreArchivo();
+void agregarContenidoArchivo();
+void sumaPunteros();
+void clasificacionBurbuja();
+void busquedaBinaria();
 
 #endif
